@@ -1,3 +1,47 @@
-h1{
-    text-align: center;
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #57b947;
+    background-color: black;
+    height: 80px;
+    padding-top: 30px;
 }
+
+.color-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #57b947;
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-top: 8px;
+
+}
+
+.navDIv {
+    display: flex;
+ }
+
+
+.navDIv h1 {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+nav a {
+    color: #57b947;
+    text-decoration: none;
+    font: bolder;
+    /* gap: 30px; */
+}
+nav a:hover{
+    color: aliceblue;
+}
+.linkDiv {
+    margin-right: 8%;
+    margin-top: 1%;
+    /* padding-left: 70%; */
+    display: flex;
+    gap: 50px;
+}
+
+ 

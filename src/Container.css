@@ -1,0 +1,25 @@
+img{
+    border-radius: 50%;
+    width: 50%;
+   }
+main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    padding-left:20%;
+    padding-top:10%;
+  }
+ 
+  .textDiv span{
+    color:#57b947;
+    font-size: larger
+  }
+  h1, h2, p {
+    margin: 5px 0;
+    padding: 0; 
+    line-height: 1.3;
+  }
+  h1, h2 {
+    line-height: 1;
+  }
