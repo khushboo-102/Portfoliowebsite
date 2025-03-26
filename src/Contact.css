@@ -1,0 +1,21 @@
+.contact{
+    padding-top:20px;
+    font-size: 60px;
+}
+ 
+.information{
+    text-align: center;
+ }
+ 
+.information a{
+    text-decoration: none;
+    color: black;
+}
+.information h3:hover{
+    color: green;
+}
+.information a:hover{
+    color: green;
+  }
+ 
+

@@ -1,47 +1,50 @@
 nav {
     display: flex;
     justify-content: space-between;
-    color: #57b947;
     background-color: black;
-    height: 80px;
-    padding-top: 30px;
+}
+.nav1-div h1{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-.color-circle {
-    width: 30px;
-    height: 30px;
-    background-color: #57b947;
-    border-radius: 100%;
-    margin-left: 150px;
-    margin-top: 8px;
+.circle {
+    width: 38px;
+    height: 25px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 8%;
+
 
 }
 
-.navDIv {
+.nav1-div {
+    color: green;
     display: flex;
- }
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px;
+    padding-left: 3%;
 
-
-.navDIv h1 {
-    padding-top: 5px;
-    padding-left: 20px;
 }
 
-nav a {
-    color: #57b947;
+
+.nav2-div ul {
+    display: flex;
+    gap: 30px;
+    padding-right: 10%;
+    padding: 30px 30px;
+}
+
+.nav2-div ul li a {
+    color: green;
     text-decoration: none;
-    font: bolder;
-    /* gap: 30px; */
-}
-nav a:hover{
-    color: aliceblue;
-}
-.linkDiv {
-    margin-right: 8%;
-    margin-top: 1%;
-    /* padding-left: 70%; */
-    display: flex;
-    gap: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    /* padding-right:10%; */
+
 }
 
- 
+.nav2-div ul li a:hover {
+    color: white;
+}
